@@ -48,19 +48,19 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('School'),
+        title: Text('First'),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             FavIcon(
-              type: 'School',
+              type: 'First Heart',
             ),
             ElevatedButton(
                 onPressed: () => Navigator.push(context,
                     MaterialPageRoute(builder: (context) => TeamPage())),
-                child: Text('Team Screen'))
+                child: Text('Second Screen'))
           ],
         ),
       ),

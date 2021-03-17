@@ -11,18 +11,15 @@ class _TeamPageState extends State<TeamPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Team'),
+        title: Text('Second'),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: <Widget>[
             FavIcon(
-              type: 'Team',
+              type: 'Second Heart',
             ),
-            ElevatedButton(
-                onPressed: () => Navigator.pop(context),
-                child: Text('School Screen'))
           ],
         ),
       ),
